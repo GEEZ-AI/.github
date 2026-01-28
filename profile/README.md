@@ -44,12 +44,14 @@ Iterative Refinement Loop: Users can provide real-time feedback (e.g., "more caf
 ## 📐 System Performance Targets
 
 The system is evaluated based on rigorous measurable performance and usability indicators:
-Criterion,Target / Expectation
-Accuracy of Intent Recognition,≥85% 
-Route Relevance (User Satisfaction),≥85% 
-Average Response Time,≤12 seconds 
-API Reliability Rate,≥97% 
-System Scalability,Up to 30 concurrent users 
+
+| Criterion,Target | Expectation |
+|:-----:|:--------:|
+| Accuracy of Intent Recognition | ≥85% | 
+| Route Relevance (User Satisfaction) | ≥85% | 
+| Average Response Time | ≤12 seconds | 
+| API Reliability Rate | ≥97% | 
+| System Scalability | Up to 30 concurrent users  | 
 
 ## 🔒 Compliance & Security
 
