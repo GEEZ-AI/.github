@@ -5,7 +5,7 @@
 
 GEEZ is an AI-driven mobile travel assistant designed to bridge the gap between human natural-language expression and real-world navigation. Developed as a COME 491 Research Project at Doğuş University, the system utilizes Large Language Models (LLMs) to interpret complex user intentions—such as specific interests, time constraints, and budget levels—to generate optimized, multi-stop itineraries integrated directly with the Google Maps Platform.
 
-## 🚀 Key Functional Capabilities
+## Key Functional Capabilities
 
 Natural Language Intent Recognition: The system extracts structured travel parameters, including destination, duration, and thematic preferences, from unstructured English prompts.
 
@@ -17,7 +17,7 @@ Direct Navigation Integration: Generated routes are converted into shareable Goo
 
 Iterative Refinement Loop: Users can provide real-time feedback (e.g., "more cafés," "shorter route") to refine and regenerate itineraries dynamically.
 
-## 🛠 Technical Infrastructure
+## Technical Infrastructure
 
 ### Backend Architecture
 
@@ -41,7 +41,7 @@ Iterative Refinement Loop: Users can provide real-time feedback (e.g., "more caf
 
 - Greedy TSP (Traveling Salesperson Problem): A custom algorithm used for efficient route optimization and sequence planning.
 
-## 📐 System Performance Targets
+## System Performance Targets
 
 The system is evaluated based on rigorous measurable performance and usability indicators:
 
@@ -53,7 +53,14 @@ The system is evaluated based on rigorous measurable performance and usability i
 | API Reliability Rate | ≥97% | 
 | System Scalability | Up to 30 concurrent users  | 
 
-## 🔒 Compliance & Security
+## Screenshots of UI for the Geez Mobile App
+
+| | | | |
+| :---: | :---: | :---: | :---: |
+<img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/797e0cfb-61b9-46b7-b628-81ee8e7da8a2" /> | <img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/7c333877-05f9-4c87-8434-24d05cbbe095" /> | <img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/eeaef7de-a4ec-41ce-967c-a60011962f14" /> | <img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/1775d568-e019-4a9b-b776-ede2e3cd5862" />
+<img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/612aff88-2203-45a7-ac38-c5bf3420c02c" /> | <img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/4b428e90-af7f-4dbc-9632-4bd4f04b936f" /> | <img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/f9d7618f-c2d4-472c-9477-85c30265847f" /> | <img width="393" height="852" alt="Image" src="https://github.com/user-attachments/assets/393ca9c2-ac70-4de5-9913-e827f25cd072" />
+
+## Compliance & Security
 
 - GDPR Adherence: All data processing activities strictly comply with the General Data Protection Regulation (Regulation EU 2016/679).
 
@@ -63,7 +70,7 @@ The system is evaluated based on rigorous measurable performance and usability i
 
 - API Security: External API keys (Google Maps Platform) are managed securely on the backend to prevent exposure.
 
-## 🏛 System Layers
+## System Layers
 
 - LLM Layer: Interprets user queries and converts them into structured TripSpec metadata.
 
